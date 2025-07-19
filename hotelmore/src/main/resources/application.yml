@@ -13,7 +13,7 @@ spring:
     name: appointment
     url: jdbc:mysql://localhost:3306/hotelmore
     username: root
-    password: More@786
+    password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       minimum-idle: 5
