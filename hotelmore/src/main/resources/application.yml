@@ -2,8 +2,8 @@ server:
   port: 8081
 
 paypal:
-  client-id: AdDXP-YLzKjAUvavqYGjVZEOb-ffj9cfvYOpnnFuOf8l5yjtxEXCJvqEMJ5uxJQfjwS6yYD-hyk4xEJr
-  client-secret: ENb0tJ92K9IrKk4QrVldiaLR8nCMLtvfU7IC07T_NE-sYgp5lHO0SYDEVgSj-Ht3r2ltpQ0RteEoKQxu
+  client-id: xxxxx
+  client-secret: xxxxx
   mode: sandbox
 
 spring:
