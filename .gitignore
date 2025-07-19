@@ -1,0 +1,3 @@
+# Root level ignores
+*.log
+.idea/

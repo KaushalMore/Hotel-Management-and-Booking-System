@@ -1,0 +1,17 @@
+package com.hotel.hotelmore.service.intefaces;
+
+import com.hotel.hotelmore.dto.Response;
+import com.hotel.hotelmore.entity.Booking;
+
+public interface BookingService {
+
+    Response freezeBooking(Long roomId, Long userId, Booking bookingRequest);
+
+    Response saveBooking(Long roomId, Long userId, Booking bookingRequest);
+
+    Response findBookingByConfirmationCode(String confirmationCode);
+
+    Response getAllBooing();
+
+    Response cancelBooking(Long bookingId);
+}

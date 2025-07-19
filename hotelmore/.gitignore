@@ -1,0 +1,71 @@
+# Compiled class files
+target/
+build/
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE specific files
+.idea/
+.classpath
+.project
+.settings/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Log files
+*.log
+logs/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Maven/Gradle specific
+.gradle/
+**/.gradle/
+*.factorypath
+
+# STS specific
+.sts4-cache/
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
+
+# Kubernetes manifests
+*.yaml.tmp
+*.yml.tmp
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Generated files
+/out/
+/test-output/
+/dist/
+
+# Security related
+*.jks
+*.p12
+*.key
+*.truststore
+
+# Test reports
+/surefire-reports/
+/target/test-results/
+/build/test-results/
+
+# Checkpoint files
+*.h2.db # For H2 embedded database
